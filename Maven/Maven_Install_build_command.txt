@@ -1,0 +1,22 @@
+To update the packages
+- sudo yum  update
+
+
+To install java 
+- yum  install java-11
+
+
+to Install Maven
+- yum  install maven
+
+- mvm --version
+
+
+Need to generate  the POM.XML File ,we need to provide the values 
+
+- mvn archetype:generate
+
+
+Maven Build command 
+
+ - mvn clean package
