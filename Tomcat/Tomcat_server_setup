@@ -47,8 +47,8 @@ ls -l
 - find / -name context.xml
 Usually it will under 2 places, and it neeeds to be changed in both the places
 
-- /home/ec2-user/tomcat/apache-tomcat-8.5.82/webapps/host-manager/META-INF/context.xml
-- /home/ec2-user/tomcat/apache-tomcat-8.5.82/webapps/manager/META-INF/context.xml
+- /home/ec2-user/tomcat/apache-tomcat-8.5.84/webapps/host-manager/META-INF/context.xml
+- /home/ec2-user/tomcat/apache-tomcat-8.5.84/webapps/manager/META-INF/context.xml
 
 # to Edit the File with vi
 - vi context.xml 
