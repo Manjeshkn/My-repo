@@ -1,9 +1,9 @@
 # Install Tomcat 
-- wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.82/bin/apache-tomcat-8.5.82.tar.gz
+- wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz
 
 
 # to Untar
-- tar -zvxf apache-tomcat-8.5.82.tar.gz
+- tar -zvxf apache-tomcat-8.5.84.tar.gz
 
 
 # to run the services
@@ -23,7 +23,7 @@ ls -l
 - chmod +x shutdown.sh
 
  # go to 
-- cd /home/ec2-user/tomcat/apache-tomcat-8.5.82/bin/
+- cd /home/ec2-user/tomcat/apache-tomcat-8.5.84/bin/
 - ./startup.sh
 
 
@@ -35,8 +35,8 @@ ls -l
 
 
  # Restart the server 
-- /home/ec2-user/tomcat/apache-tomcat-8.5.82/bin/shutdown.sh
-- /home/ec2-user/tomcat/apache-tomcat-8.5.82/bin/startup.sh
+- /home/ec2-user/tomcat/apache-tomcat-8.5.84/bin/shutdown.sh
+- /home/ec2-user/tomcat/apache-tomcat-8.5.84/bin/startup.sh
 
 
  # You are not authorized to view this page.
@@ -76,7 +76,7 @@ Sample
   
  # Update users information in the tomcat-users.xml file goto tomcat home directory and Add below users using vi tomcat-users.xml
 
-/home/ec2-user/tomcat/apache-tomcat-8.5.82/conf/tomcat-users.xml file
+/home/ec2-user/tomcat/apache-tomcat-8.5.84/conf/tomcat-users.xml file
 
 
 
